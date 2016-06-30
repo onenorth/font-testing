@@ -13,23 +13,27 @@
       ul, li { margin: 0; padding: 0; list-style-position: outside; }
       .page-header { margin-bottom: 3rem; padding: 0.5rem; background-color: #cd1820; }
       .page-header__title { color: #fff; }
-      .section-header { margin-bottom: 1rem; }
-      .section-header__title { margin-bottom: 2rem; font-size: 1.25rem; text-transform: uppercase; color: #cd1820; }
+      .article-header { margin-bottom: 1rem; }
+      .article-header__title { margin-bottom: 2rem; font-size: 1.25rem; text-transform: uppercase; color: #cd1820; }
+      .section-header__title { font-size: 1.125rem; }
       .section-header__intro { font-size: 1.125rem; }
     </style>
   </head>
 
   <body>
-    <article>
-      <header class="page-header">
-        <h1 class="page-header__title">Font Testing Utility</h1>
+    <header class="page-header">
+      <h1 class="page-header__title">Font Testing Utility</h1>
+    </header>
+    <article class="article">
+      <header class="article-header">
+        <h2 class="article-header__title">Test Pages</h3>
       </header>
-      <section class="pages">
+      <section class="section section--pages">
         <header class="section-header">
           <h2 class="section-header__title">Testing Pages</h2>
           <p class="section-header__intro">The following pages contain examples of using various font-families for page content. These pages can be used to test various font combinations, and for testing non-Latin charsets with various font families.</p>
         </header>
-        <ul>
+        <ul class="page-list">
           <li>
             <a href="traditional-chinese-mixed.html">English + Traditional Chinese (mixed content)</a>
           </li>

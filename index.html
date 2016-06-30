@@ -8,21 +8,24 @@
     <style type="text/css">
       *, *:before, *:after { box-sizing: inherit; }
       html { box-sizing: border-box; font-size: 100%; }
-      body{ font-family: 'SourceHanSansTC-Regular-Alphabetic'; font-size: 1rem; }
-      .page-header { margin-bottom: 3rem; background-color: #cd1820; color: #fafafa; }
-      .section-header { color: #cd1820; }
-      .section-header__intro { margin-bottom: 2rem; font-size: 1.25rem; }
+      body{ font-family: 'SourceHanSansTC-Regular-Alphabetic'; font-size: 1rem; color: #202221; }
+      ul, li { margin: 0; padding: 0; list-style-position: outside; }
+      .page-header { margin-bottom: 3rem; padding: 1rem; background-color: #cd1820; }
+      .page-header__title { color: #fafafa; }
+      .section-header { margin-bottom: 1rem; }
+      .section-header__title { margin-bottom: 2rem; color: #cd1820; }
+      .section-header__intro { font-size: 1.25rem; }
     </style>
   </head>
 
   <body>
     <article>
       <header class="page-header">
-        <h1>Font Testing Utility</h1>
+        <h1 class="page-header__title">Font Testing Utility</h1>
       </header>
       <section class="pages">
         <header class="section-header">
-          <h2>Testing Pages</h2>
+          <h2 class="section-header__title">Testing Pages</h2>
           <p class="section-header__intro">The following pages contain examples of using various font-families for page content. These pages can be used to test various font combinations, and for testing non-Latin charsets with various font families.</p>
         </header>
         <ul>

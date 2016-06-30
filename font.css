@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'SourceHanSansTC-Regular-Alphabetic';
+  src: url('SourceHanSansTC-Regular.eot'); /* IE9 Compat Modes */
+  src: url('SourceHanSansTC-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('SourceHanSansTC-Regular.woff') format('woff'), /* Modern Browsers */
+       url('SourceHanSansTC-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('SourceHanSansTC-Regular.svg#e47af4d35441579b62d0f15885f78255') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
